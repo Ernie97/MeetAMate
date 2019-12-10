@@ -1,0 +1,61 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Roboto", sans-serif
+}
+
+.one-fifth{float:left;width:100%}
+
+@media (min-width:601px){.w3-col.m5,.one-fifth{width:19.99999%}}
+
+.w3-row-padding>.one-fifth,.w3-row-padding>.w3-col{padding:0 8px}
+
+.subt{
+	font-weight: bold;
+}
+
+#contenedor-universidad {
+	margin-top: 10px;
+	min-height: 100vh;
+}
+#contenido-universidad{
+	display:flex; 
+	justify-content: center;
+	text-decoration:none;
+	width: 100%;
+	position: relative;
+	height: 200px;
+}
+.mostrar-asignaturas {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #397c97;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+}
+
+#contenedor-universidad h3 {
+	font-size: 25px;
+	vertical-align:middle;
+	display:flex;
+	vertical-align:middle;
+	align-self: center;
+}
+
+#contenido-universidad:hover .mostrar-asignaturas {
+	height: 100%;
+	justify-content: center;
+}
+.texto {
+  white-space: nowrap; 
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

@@ -1,0 +1,36 @@
+html,body,h1,h2,h3,h4,h5,h6 {
+	font-family: "Roboto", sans-serif
+}
+
+.subt{
+	font-weight: bold;
+}
+
+.alto{
+	height: 370px;
+}
+
+#contenedor-ocio {
+	flex-direction:column; 
+	display:flex; 
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+#contenido-ocio:hover{
+	display:flex; 
+	flex-wrap: wrap;
+	align-content: center;
+	opacity:1;
+	text-decoration:none;
+}
+#contenido-ocio{
+	display:flex; 
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	text-decoration:none;
+	font-size: 30px;
+}
+#contenido{
+	min-height: 100vh;
+}

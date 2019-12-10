@@ -1,0 +1,14 @@
+#contenido-alojamiento:hover{
+	display:flex; 
+	flex-wrap: wrap;
+	opacity:1;
+	text-decoration:none;
+}
+#contenido-alojamiento{
+	display:flex; 
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	text-decoration:none;
+	width: 100%;
+}

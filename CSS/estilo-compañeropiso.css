@@ -1,0 +1,31 @@
+#contenedor-compañero{
+	min-height: 100vh;
+}
+
+#detalles{
+	border:none;
+	display:flex;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	text-align:left;
+	align-self: center;
+	font-size: 16px;
+}
+#detalles:hover{
+	font-weight: bold; 
+}
+#info_usuario{
+	display:flex; 
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color:#fff;
+}
+#perfil-companero { 
+	text-align:center;
+}
+#sel-companero {
+	display: flex;
+	min-height: 100vh;
+}
